@@ -172,6 +172,9 @@ app.get('/Breast-Diagnostic', (req, res) => {
 app.get('/symptoms-checker', (req, res) => {
   res.render("pages/symptoms-checker");
 })
+app.get('/heartStrokeDetection', (req, res) => {
+  res.render("pages/heartStrokeDetection");
+})
 app.get('/index', (req, res) => {
     res.render("pages/index");
 })
